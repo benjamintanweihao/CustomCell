@@ -13,6 +13,10 @@
 		640196D519FA581B002719EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640196D419FA581B002719EA /* Images.xcassets */; };
 		640196D819FA581B002719EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 640196D619FA581B002719EA /* LaunchScreen.xib */; };
 		640196E419FA581B002719EA /* CustomCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640196E319FA581B002719EA /* CustomCellTests.swift */; };
+		640196EF19FA58CB002719EA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640196ED19FA58CB002719EA /* CustomCell.swift */; };
+		640196F019FA58CB002719EA /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 640196EE19FA58CB002719EA /* CustomCell.xib */; };
+		6435830319FA593300C1A5A1 /* terminator.png in Resources */ = {isa = PBXBuildFile; fileRef = 6435830219FA593300C1A5A1 /* terminator.png */; };
+		6435830519FA59F400C1A5A1 /* CustomCellCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6435830419FA59F400C1A5A1 /* CustomCellCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		640196DD19FA581B002719EA /* CustomCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		640196E219FA581B002719EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		640196E319FA581B002719EA /* CustomCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTests.swift; sourceTree = "<group>"; };
+		640196ED19FA58CB002719EA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = SOURCE_ROOT; };
+		640196EE19FA58CB002719EA /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = SOURCE_ROOT; };
+		6435830219FA593300C1A5A1 /* terminator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terminator.png; sourceTree = "<group>"; };
+		6435830419FA59F400C1A5A1 /* CustomCellCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,12 @@
 		640196CA19FA581B002719EA /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
+				6435830219FA593300C1A5A1 /* terminator.png */,
+				640196ED19FA58CB002719EA /* CustomCell.swift */,
+				640196EE19FA58CB002719EA /* CustomCell.xib */,
 				640196CD19FA581B002719EA /* AppDelegate.swift */,
 				640196CF19FA581B002719EA /* ViewController.swift */,
+				6435830419FA59F400C1A5A1 /* CustomCellCollectionViewController.swift */,
 				640196D119FA581B002719EA /* Main.storyboard */,
 				640196D419FA581B002719EA /* Images.xcassets */,
 				640196D619FA581B002719EA /* LaunchScreen.xib */,
@@ -193,7 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				640196D319FA581B002719EA /* Main.storyboard in Resources */,
+				6435830319FA593300C1A5A1 /* terminator.png in Resources */,
 				640196D819FA581B002719EA /* LaunchScreen.xib in Resources */,
+				640196F019FA58CB002719EA /* CustomCell.xib in Resources */,
 				640196D519FA581B002719EA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				640196D019FA581B002719EA /* ViewController.swift in Sources */,
+				6435830519FA59F400C1A5A1 /* CustomCellCollectionViewController.swift in Sources */,
+				640196EF19FA58CB002719EA /* CustomCell.swift in Sources */,
 				640196CE19FA581B002719EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +421,7 @@
 				640196E919FA581B002719EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		640196EA19FA581B002719EA /* Build configuration list for PBXNativeTarget "CustomCellTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				640196EC19FA581B002719EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
